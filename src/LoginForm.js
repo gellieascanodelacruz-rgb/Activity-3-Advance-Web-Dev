@@ -23,7 +23,7 @@ const LoginForm = ({ onLogin }) => {
           type="text"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
-          placeholder="Username"
+          placeholder="Gellie"
         />
 
         <LoginInput
@@ -31,7 +31,7 @@ const LoginForm = ({ onLogin }) => {
           type="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-          placeholder="Password"
+          placeholder="Gellie123"
         />
 
         <button type="submit" style={styles.button}>
